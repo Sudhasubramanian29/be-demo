@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "demo session",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Sudhasubramanian29/be-demo/issues"
   },
-  "homepage": "https://github.com/Sudhasubramanian29/be-demo#readme"
+  "homepage": "https://github.com/Sudhasubramanian29/be-demo#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  }
 }
